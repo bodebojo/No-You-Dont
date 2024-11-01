@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": "No You Don't",
+        "frame": "goal",
+        "description": [
+            {
+                "text": "A Datapack to restrict acces to the nether and end with a configurable delay.",
+                "color": "gold"
+            }
+        ],
+        "background": "minecraft:textures/block/deepslate.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "bodebojo:root"
+}
