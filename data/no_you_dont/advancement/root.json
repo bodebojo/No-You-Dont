@@ -3,22 +3,54 @@
         "icon": {
             "id": "minecraft:barrier"
         },
-        "title": "No You Don't",
+        "title": {
+            "translate": "advancements.no_you_dont.root.title",
+            "fallback": "No You Don't"
+        },
         "frame": "goal",
         "description": [
             {
-                "text": "A Datapack to restrict acces to the nether and end with a configurable delay.",
-                "color": "gold"
+                "text": "Version",
+                "extra": [
+                    " ",
+                    {
+                        "text": "1.2.0",
+                        "color": "red"
+                    }
+                ],
+                "color": "dark_gray"
+            },
+            "\n\n",
+            {
+                "translate": "advancements.no_you_dont.root.description",
+                "fallback": "A Datapack to restrict acces to the nether and end with a configurable delay.",
+                "color": "gray"
+            },
+            "\n\n",
+            {
+                "text": "By",
+                "extra": [
+                    " ",
+                    {
+                        "text": "Bodebojo",
+                        "color": "red"
+                    }
+                ],
+                "color": "dark_gray"
             }
         ],
-        "background": "minecraft:textures/block/deepslate.png",
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "tick": {
+        "install the no_you_dont datapack": {
             "trigger": "minecraft:tick"
         }
     },
-    "parent": "bodebojo:root"
+    "parent": "bojos_api:root",
+    "requirements": [
+        [
+            "install the no_you_dont datapack"
+        ]
+    ]
 }
