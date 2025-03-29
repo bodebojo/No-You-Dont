@@ -25,7 +25,7 @@
                 "color": "yellow"
             }
         ],
-        "background": "minecraft:block/deepslate.png",
+        "background": "minecraft:textures/block/deepslate.png",
         "show_toast": false,
         "announce_to_chat": false
     },

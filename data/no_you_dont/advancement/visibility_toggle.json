@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "title": "Toggle Bossbar Visibility",
+        "frame": "task",
+        "description": [
+            {
+                "text": "Type '/trigger no_you_dont.show_bossbars' to toggle bossbar visibility.",
+                "color": "gold"
+            }
+        ],
+        "background": "minecraft:textures/block/deepslate.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "no_you_dont:root"
+}

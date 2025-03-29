@@ -1,10 +1,21 @@
 {
     "pack": {
-        "pack_format": 48,
+        "pack_format": 71,
         "supported_formats": {
             "min_inclusive": 48,
-            "max_inclusive": 48
+            "max_inclusive": 71
         },
         "description": "A Datapack to restrict acces to the nether and end with a configurable delay."
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "1.21-1.21.4",
+                "formats": {
+                    "min_inclusive": 48,
+                    "max_inclusive": 61
+                }
+            }
+        ]
     }
 }
