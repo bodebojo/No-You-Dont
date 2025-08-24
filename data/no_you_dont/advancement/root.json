@@ -43,14 +43,14 @@
         "announce_to_chat": false
     },
     "criteria": {
-        "install the no_you_dont datapack": {
+        "install_the_no_you_dont_datapack": {
             "trigger": "minecraft:tick"
         }
     },
     "parent": "bojos_api:root",
     "requirements": [
         [
-            "install the no_you_dont datapack"
+            "install_the_no_you_dont_datapack"
         ]
     ]
 }
